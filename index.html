@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <style>
+      /* Optional CSS styling for centering and button alignment */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      #timer {
+        font-size: 3em;
+      }
+      button {
+        font-size: 1.5em;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="timer">00 : 00 : 00</div>
+    <button id="start" onclick="startStopwatch()">Start</button>
+    <button onclick="stopStopwatch()">Stop</button>
+    <button onclick="resetStopwatch()">Reset</button>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
