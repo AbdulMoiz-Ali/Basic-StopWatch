@@ -1,0 +1,70 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid silver;
+  background-color: rgb(32, 31, 31);
+  flex-direction: column;
+}
+.counter {
+  color: blue;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: cursive;
+}
+.start {
+  color: black;
+  background-color: blue;
+  border-radius: 20%;
+  box-sizing: border-box;
+  border: 1px solid silver;
+  width: 60px;
+  height: 30px;
+  font-weight: bold;
+}
+.Stop {
+  color: black;
+  background-color: blue;
+  border-radius: 20%;
+  box-sizing: border-box;
+  border: 1px solid silver;
+  width: 55px;
+  height: 50px;
+  font-weight: bold;
+}
+.Reset {
+  color: black;
+  background-color: blue;
+  border-radius: 20%;
+  box-sizing: border-box;
+  border: 1px solid silver;
+  width: 60px;
+  height: 30px;
+  font-weight: bold;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.start:focus {
+  transform: scaleX(1.5);
+}
+.Reset:focus {
+  transform: scaleX(1.5);
+}
+.Stop:focus {
+  transform: scaleX(1.5);
+}
